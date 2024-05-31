@@ -19,10 +19,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/toladata-software/ngx-dropzone",
+  "homepage": "https://github.com/gichiraanne/ngx-dropzone",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toladata-software/ngx-dropzone.git"
+    "url": "git+https://github.com/gichiraanne/ngx-dropzone.git"
   },
   "peerDependencies": {
     "@angular/common": "^17.3.7",
@@ -31,6 +31,6 @@
     "tslib": "^2.6.2"
   },
   "bugs": {
-    "url": "https://github.com/toladata-software/ngx-dropzone/issues"
+    "url": "https://github.com/gichiraanne/ngx-dropzone/issues"
   }
 }
