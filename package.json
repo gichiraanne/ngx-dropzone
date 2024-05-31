@@ -1,0 +1,51 @@
+{
+  "name": "ngx-dropzone",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start:app": "ng serve app",
+    "start:lib": "ng serve --watch --project=lib",
+    "build:app": "ng build app",
+    "build:lib": "ng build lib --configuration production",
+    "test:app": "ng test app",
+    "lint:lib": "ng lint lib",
+    "e2e": "ng e2e",
+    "prepare": "npm run build:lib",
+    "release": "cd projects/ngx-dropzone && npm version minor && cd ../.. && ng build --configuration production && cp README.md dist/ngx-dropzone/ && cd dist/ngx-dropzone && npm publish"
+  },
+  "dependencies": {
+    "@angular/animations": "^17.3.7",
+    "@angular/common": "^17.3.7",
+    "@angular/compiler": "^17.3.7",
+    "@angular/core": "^17.3.7",
+    "@angular/forms": "^17.3.7",
+    "@angular/platform-browser": "^17.3.7",
+    "@angular/platform-browser-dynamic": "^17.3.7",
+    "@angular/router": "^17.3.7",
+    "core-js": "^2.5.4",
+    "rxjs": "^6.6.3",
+    "tslib": "^2.6.2",
+    "zone.js": "^0.14.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.7",
+    "@angular/cli": "^17.3.7",
+    "@angular/compiler-cli": "^17.3.7",
+    "@angular/language-service": "^17.3.7",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
+    "jasmine-core": "~3.8.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~3.0.2",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^17.3.0",
+    "protractor": "~7.0.0",
+    "ts-node": "^9.1.1",
+    "tslint": "~6.1.0",
+    "typescript": "~5.4.5"
+  }
+}

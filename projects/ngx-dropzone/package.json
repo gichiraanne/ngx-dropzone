@@ -1,0 +1,36 @@
+{
+  "name": "@annie_gee/ngx-dropzone",
+  "description": "A highly configurable dropzone component for Angular.",
+  "version": "1.0.0",
+  "author": "@annie_gee",
+  "keywords": [
+    "angular",
+    "angular 2",
+    "ngx",
+    "drag",
+    "drop",
+    "dropzone",
+    "ngx-dropzone",
+    "file",
+    "upload",
+    "image"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/toladata-software/ngx-dropzone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toladata-software/ngx-dropzone.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^17.3.7",
+    "@angular/core": "^17.3.7",
+    "@angular/forms": "^17.3.7",
+    "tslib": "^2.6.2"
+  },
+  "bugs": {
+    "url": "https://github.com/toladata-software/ngx-dropzone/issues"
+  }
+}
